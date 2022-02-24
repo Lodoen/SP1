@@ -1,0 +1,80 @@
+.short-lines {
+  padding: 0 20px;
+}
+
+.contact {
+  max-width: 500px;
+}
+
+h1,
+form {
+  text-align: center;
+}
+
+h1 {
+  margin: 10px 0 20px 0;
+}
+
+form div {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+select,
+textarea,
+.cta {
+  border: 1px solid;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.cta {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 30px;
+  background-color: #1c606d;
+  border: 2px solid #1c606d;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.cta:hover {
+  background-color: #fff;
+  color: #1c606d;
+}
+
+.involved-wrapper {
+  background-color: #fdf7f2;
+  margin-top: 50px;
+  padding: 20px 0;
+}
+
+h3 {
+  margin: 30px 0 0 0;
+}
+
+.involved p:first-of-type {
+  margin-top: 0;
+}
+
+#message-trigger {
+  display: none;
+}
+
+.notification {
+  position: absolute;
+  border: 1px solid;
+  padding: 20px;
+  background-color: #fff;
+  top: 70px;
+  right: 0;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+
+#message-trigger:checked ~ .notification {
+  opacity: 1;
+}

@@ -1,0 +1,53 @@
+.short-lines {
+  padding: 0 10px;
+}
+
+iframe,
+main img {
+  display: block;
+  width: 90%;
+  margin: 20px auto;
+}
+
+main img {
+  max-width: 225px;
+}
+
+ul,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.location__address {
+  grid-area: address;
+}
+
+.location__open {
+  grid-area: list;
+}
+
+.location__map {
+  grid-area: map;
+}
+
+.accessibility__accessibility {
+  grid-area: accessibility;
+}
+.accessibility__food {
+  grid-area: food;
+}
+.accessibility__shop {
+  grid-area: shop;
+}
+.accessibility__image {
+  grid-area: image;
+}
+
+.information:last-of-type {
+  margin-bottom: 50px;
+}

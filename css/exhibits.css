@@ -1,0 +1,61 @@
+.short-lines {
+  padding: 10px;
+}
+
+#events__hamburger,
+#exhibits__hamburger {
+  display: none;
+}
+
+.hamburger-label {
+  display: block;
+  color: #fff;
+}
+
+.hamburger-label span {
+  background-color: #1c606d;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hamburger-label span img {
+  width: 30px;
+  transition: transform 0.5s;
+}
+
+#events__hamburger:checked ~ .events__list,
+#exhibits__hamburger:checked ~ .exhibits__list {
+  display: none;
+}
+
+#events__hamburger:checked ~ .hamburger-label img,
+#exhibits__hamburger:checked ~ .hamburger-label img {
+  transform: rotate(-180deg);
+}
+
+.events,
+.exhibits {
+  padding-bottom: 20px;
+}
+
+.events__list,
+.exhibits__list {
+  display: grid;
+  gap: 10px;
+  background-color: #fdf7f2;
+  padding-bottom: 20px;
+}
+
+.events__list section,
+.exhibits__list section {
+  padding: 5px;
+  border: 1px solid;
+  background-color: #fff;
+}
+
+.read-more {
+  display: block;
+}

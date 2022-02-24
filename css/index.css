@@ -1,0 +1,73 @@
+h1 {
+  font-family: Papyrus, fantasy;
+  margin-top: 0;
+}
+
+.view_exhibits a,
+.limited-events {
+  color: #fff;
+}
+
+.view_exhibits,
+.limited-events {
+  text-align: center;
+}
+
+.view_exhibits-wrapper {
+  background-color: #e6d6b5;
+}
+
+.view_exhibits {
+  min-height: 200px;
+  padding: 20px;
+  background: url("../images/cta-background.png") right bottom no-repeat;
+  margin: 0 auto;
+}
+
+.view_exhibits a {
+  background-color: #b40f2b;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+}
+
+.limited-events {
+  background-color: #1c606d;
+  display: block;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+.explore_togheter {
+  padding: 20px 20px 50px 20px;
+}
+
+.explore {
+  background-color: #fdf7f2;
+  padding: 50px 20px;
+}
+
+.explore h3 {
+  margin: 0;
+}
+
+.explore section {
+  margin-top: 50px;
+}
+
+.explore__reverse h3 {
+  grid-area: title;
+}
+
+.explore__reverse div {
+  grid-area: image;
+}
+
+.explore__reverse p {
+  grid-area: paragraph;
+}
+
+.short-lines img {
+  max-width: 230px;
+  margin: 0 auto;
+  display: block;
+}

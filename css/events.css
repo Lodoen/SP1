@@ -1,0 +1,23 @@
+.short-lines {
+  padding: 10px;
+}
+
+main {
+  background-color: #fdf7f2;
+}
+
+.event__wrapper {
+  background-color: #fff;
+}
+
+.event__details {
+  display: grid;
+}
+
+main > section {
+  min-height: 200px;
+}
+
+h1 {
+  grid-column: -1/1;
+}

@@ -1,0 +1,219 @@
+@media (min-width: 400px) {
+  /*Exhibits
+  __________________________________*/
+  .about-exhibits {
+    margin-bottom: 30px;
+  }
+
+  .events__list,
+  .exhibits__list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/*Tablet / small desktop*/
+@media (min-width: 650px) {
+  /*Header, nav, main, and footer
+    __________________________________*/
+  .hamburger-nav__label {
+    display: none;
+  }
+
+  .logo-wrapper {
+    flex-direction: row-reverse;
+  }
+
+  header {
+    justify-content: start;
+  }
+
+  nav {
+    display: block;
+    position: static;
+    margin-left: 15px;
+  }
+
+  nav li {
+    display: inline-block;
+    padding: 0;
+  }
+
+  nav a {
+    padding: 6px;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .footer-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-wrapper > * {
+    flex: 1;
+  }
+
+  /*Index
+  __________________________________*/
+  .view_exhibits {
+    text-align: left;
+  }
+
+  .explore_togheter,
+  .explore section {
+    display: grid;
+    gap: 40px;
+  }
+
+  .explore_togheter__title,
+  .explore section h3 {
+    grid-column: -1/1;
+  }
+
+  .explore_togheter {
+    grid-template-columns: 1fr 230px;
+  }
+
+  .explore__reverse,
+  .explore__standard {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .explore__reverse {
+    grid-template-areas:
+      "title ."
+      "paragraph image";
+  }
+
+  .explore img {
+    max-width: none;
+    display: inline;
+  }
+
+  /*Visit
+  __________________________________*/
+  .visit__title {
+    padding: 10px;
+  }
+
+  .location-wrapper,
+  .accessibility-wrapper {
+    background-color: #fdf7f2;
+  }
+
+  .location,
+  .accessibility {
+    display: grid;
+    gap: 50px;
+    align-items: center;
+  }
+
+  .information {
+    margin: 50px auto;
+  }
+
+  .location {
+    grid-template-columns: 1fr 400px;
+    grid-template-areas:
+      "address map"
+      "list map";
+  }
+
+  .location__open,
+  .accessibility__shop {
+    padding-bottom: 20px;
+  }
+
+  iframe {
+    width: 400px;
+    height: 350px;
+    margin: 0;
+  }
+
+  .accessibility {
+    grid-template-columns: 1fr 250px;
+    grid-template-areas:
+      "accessibility image"
+      "food image"
+      "shop image";
+  }
+
+  /*Exhibits
+  __________________________________*/
+  .events,
+  .exhibits,
+  .events__list,
+  .exhibits__list {
+    padding-bottom: 40px;
+  }
+
+  .events__list,
+  .exhibits__list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  /*Events
+  __________________________________*/
+  .event__details {
+    gap: 20px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: auto 1fr;
+    padding-bottom: 50px;
+  }
+
+  .event__details h1 {
+    margin-bottom: 0;
+  }
+
+  /*Contact
+  __________________________________*/
+  .contact {
+    margin-top: 30px;
+  }
+
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+
+  textarea {
+    height: 100%;
+  }
+
+  .cta {
+    grid-column: -1/1;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  .notification {
+    top: 80px;
+    right: 10px;
+  }
+
+  .involved-wrapper {
+    padding: 30px 0 40px 0;
+  }
+}
+
+@media (min-width: 800px) {
+  /*Index
+  __________________________________*/
+  .explore__reverse {
+    grid-template-columns: 1fr 230px;
+  }
+
+  .explore__standard {
+    grid-template-columns: 230px 1fr;
+  }
+  /*Exhibits
+  __________________________________*/
+  .events__list,
+  .exhibits__list {
+    gap: 20px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
