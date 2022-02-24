@@ -87,6 +87,11 @@
       "paragraph image";
   }
 
+  .explore h3 {
+    margin: 0;
+    text-align: left;
+  }
+
   .explore img {
     max-width: none;
     display: inline;
