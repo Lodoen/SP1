@@ -133,8 +133,8 @@ footer a {
   color: #000;
 }
 
-footer p {
-  padding-top: 20px;
+.copyright {
+  margin-top: 20px;
 }
 
 .contact__information {
