@@ -38,7 +38,6 @@ nav {
   background-color: #1c606d;
 }
 
-header,
 header a {
   color: #fff;
 }
@@ -55,9 +54,14 @@ nav a {
   align-items: center;
 }
 
+header,
+nav a,
+footer {
+  padding: 10px;
+}
+
 header {
   justify-content: space-between;
-  padding: 10px;
   text-align: center;
   font-size: 1.2em;
 }
@@ -107,10 +111,6 @@ nav li {
   padding: 15px;
 }
 
-nav a {
-  padding: 10px;
-}
-
 .hamburger-nav__label img,
 nav a div {
   width: 20px;
@@ -129,17 +129,13 @@ nav a div {
 
 footer {
   border-top: 1px solid;
-  padding: 10px;
 }
 
 footer a {
   color: #000;
 }
 
-.copyright {
-  margin-top: 20px;
-}
-
+.copyright,
 .contact__information {
   margin-top: 20px;
 }

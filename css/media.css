@@ -76,8 +76,8 @@
     grid-template-columns: 1fr 230px;
   }
 
-  .explore__reverse,
-  .explore__standard {
+  .explore__standard,
+  .explore__reverse {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -94,7 +94,6 @@
 
   .explore img {
     max-width: none;
-    display: inline;
   }
 
   /*Visit
@@ -211,12 +210,12 @@
 @media (min-width: 800px) {
   /*Index
   __________________________________*/
-  .explore__reverse {
-    grid-template-columns: 1fr 230px;
-  }
-
   .explore__standard {
     grid-template-columns: 230px 1fr;
+  }
+
+  .explore__reverse {
+    grid-template-columns: 1fr 230px;
   }
   /*Exhibits
   __________________________________*/

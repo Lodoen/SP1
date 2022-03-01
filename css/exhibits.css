@@ -2,7 +2,6 @@
   padding: 10px;
 }
 
-.hamburger-label,
 .read-more {
   display: block;
 }
@@ -17,8 +16,9 @@
   justify-content: space-between;
 }
 
-.hamburger-label img {
+.hamburger-label div {
   width: 30px;
+  height: 30px;
   transition: transform 0.5s;
 }
 
@@ -29,8 +29,8 @@
   display: none;
 }
 
-#events__hamburger:checked ~ .hamburger-label img,
-#exhibits__hamburger:checked ~ .hamburger-label img {
+#events__hamburger:checked ~ .hamburger-label div,
+#exhibits__hamburger:checked ~ .hamburger-label div {
   transform: rotate(-180deg);
 }
 
