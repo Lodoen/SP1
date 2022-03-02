@@ -92,8 +92,7 @@
     text-align: left;
   }
 
-  .explore_togheter img,
-  .explore img {
+  .showcase {
     max-width: none;
   }
 
@@ -131,7 +130,7 @@
     padding-bottom: 20px;
   }
 
-  iframe {
+  .location__map {
     width: 400px;
     height: 350px;
     margin: 0;
@@ -145,8 +144,9 @@
       "shop image";
   }
 
-  .accessibility__image img {
+  .accessibility__image {
     max-width: none;
+    width: 100%;
   }
 
   /*Exhibits

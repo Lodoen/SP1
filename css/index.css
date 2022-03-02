@@ -18,8 +18,8 @@ h1 {
   background-color: #e6d6b5;
 }
 
-.view_exhibits,
-.short-lines img {
+.showcase {
+  max-width: 230px;
   margin: 0 auto;
 }
 
@@ -35,15 +35,11 @@ h1 {
   font-size: 1.5rem;
 }
 
-.limited-events,
-.short-lines img {
-  display: block;
-}
-
 .limited-events {
   background-color: #1c606d;
   padding: 10px;
   font-size: 1.1rem;
+  display: block;
 }
 
 .explore_togheter {
@@ -69,8 +65,4 @@ h1 {
 
 .explore__reverse p {
   grid-area: paragraph;
-}
-
-.short-lines img {
-  max-width: 230px;
 }

@@ -10,12 +10,12 @@ main {
   background-color: #fff;
 }
 
-.event__details {
-  display: grid;
-}
-
 main > section {
   min-height: 200px;
+}
+
+.event__details {
+  display: grid;
 }
 
 h1 {
@@ -23,8 +23,11 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  margin-bottom: 10px;
+}
+
 .event__details div {
   max-width: 360px;
-  display: block;
   margin: 0 auto;
 }
