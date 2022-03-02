@@ -92,6 +92,7 @@
     text-align: left;
   }
 
+  .explore_togheter img,
   .explore img {
     max-width: none;
   }
@@ -144,6 +145,10 @@
       "shop image";
   }
 
+  .accessibility__image img {
+    max-width: none;
+  }
+
   /*Exhibits
   __________________________________*/
   .events,
@@ -174,6 +179,11 @@
 
   .event__details h1 {
     margin-bottom: 0;
+    text-align: left;
+  }
+
+  .event__details div {
+    max-width: none;
   }
 
   /*Contact
