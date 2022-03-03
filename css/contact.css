@@ -75,6 +75,10 @@ h3 {
   transition: opacity 1.5s;
 }
 
+.notification p {
+  margin: 0;
+}
+
 #message-trigger:checked ~ .notification {
   opacity: 1;
 }
