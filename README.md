@@ -25,7 +25,7 @@ git clone https://github.com/jonaslod/SP1.git
 If you wish to contribute by sending in feedback, you are welcome to do so. I am relatively new to front-end development, and I am sure there are many improvements to be made. You are also able to submit code to the project, since the project is uploaded on a public GitHub repository. If you want to do so, be sure to open a pull request so the code can be reviewed.
 
 ## Contact
-[My LinkedIn page](www.linkedin.com)
+[My Twitter profile](https://twitter.com/jonaslodcontact)
 
 ## Additional screenshots
 ![semester-project-1_4](https://user-images.githubusercontent.com/95305401/194033086-b24263d1-2a8e-4262-89b6-604752607a87.jpg)
